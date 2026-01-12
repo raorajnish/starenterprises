@@ -1,0 +1,218 @@
+HOME PAGE — DETAILED LAYOUT & CONTENT DESCRIPTION
+
+STAR ENTERPRISES
+
+1️⃣ Header / Navigation Bar
+Layout
+
+Full-width top navigation bar
+
+Logo aligned to left
+
+Navigation links aligned to right
+
+Primary CTA button at the extreme right
+
+Content
+
+Logo / Brand Name:
+Star Enterprises
+
+Navigation Links:
+
+Home
+
+Services
+
+About
+
+Contact
+
+Primary CTA Button:
+Get In Touch
+→ Scrolls to Contact section or opens contact page
+
+Purpose
+
+Clear brand identity
+
+Easy navigation
+
+Immediate access to enquiry
+
+2️⃣ Hero Section (Above the Fold)
+Layout
+
+Two-column layout
+
+Left: Text content
+
+Right: Reserved space (can be empty, illustration, or future visual)
+
+Vertically centered content
+
+Generous padding and whitespace
+
+Content
+
+Main Heading (H1):
+Undertaking All Types of Chiller & HVAC Services
+
+Sub-heading (Paragraph):
+Quality-first solutions for chiller descaling, cooling tower service, AHU maintenance, and complete AC repair services.
+
+Primary Buttons:
+
+Services → Scroll to Services page/section
+
+Call Now → Direct phone call on mobile
+
+Purpose
+
+Instantly communicate what the company does
+
+Emphasize quality-first approach
+
+Drive users to services or direct contact
+
+3️⃣ Statistics / Experience Highlights
+Layout
+
+Horizontal container with 3 equal sections
+
+Center-aligned text in each section
+
+Light background or subtle border separation
+
+Content
+
+Stat 1:
+10
+Years Experience
+
+Stat 2:
+500+
+Projects Done
+
+Stat 3:
+1200+
+Happy Clients
+
+Purpose
+
+Establish credibility instantly
+
+Reinforce experience without long text
+
+4️⃣ “Why Choose Us” Section
+Layout
+
+Full-width section
+
+Center-aligned heading
+
+Grid layout with 4 feature cards
+
+Content
+
+Section Heading:
+Why Choose Us
+
+Supporting Line:
+We provide comprehensive HVAC solutions with a commitment to excellence and customer satisfaction.
+
+Feature Cards:
+
+1️⃣ Expert Service
+Specialized in AC repair and chiller plant maintenance
+
+2️⃣ Quality First
+Committed to delivering the highest quality service
+
+3️⃣ 24/7 Support
+Available around the clock for emergency repairs
+
+4️⃣ Certified Technicians
+Experienced professionals handling all major brands
+
+Purpose
+
+Clearly explain business strengths
+
+Make it easy for clients to compare and trust
+
+5️⃣ “Expert Service You Can Always Trust” Section
+Layout
+
+Two-column layout
+
+Left: Image (technician working on HVAC equipment)
+
+Right: Content
+
+Badge overlay on image (optional)
+
+Content
+
+Section Title:
+Expert Service You Can Always Trust
+
+Description Paragraph:
+With over 10 years of industry experience, Star Enterprises has built a reputation for excellence and reliability in HVAC solutions.
+
+Feature List (Bullet Points):
+
+Experienced Technicians
+
+Genuine Spare Parts
+
+Transparent Pricing
+
+Quality Guarantee
+
+Quick Response Time
+
+Modern Equipment
+
+Highlight Badge (Optional):
+24/7 Emergency Support
+
+CTA Button:
+Learn More About Us → About page
+
+Purpose
+
+Add human touch
+
+Reinforce reliability and professionalism
+
+Encourage deeper exploration of the business
+
+6️⃣ Overall Content Tone & Messaging
+Tone
+
+Professional
+
+Industrial
+
+Trust-focused
+
+Straightforward
+
+Target Audience
+
+Industrial facilities
+
+Commercial buildings
+
+HVAC & facility managers
+
+Business owners
+
+Primary Goal
+
+Build trust
+
+Explain expertise
+
+Generate enquiries

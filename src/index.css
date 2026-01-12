@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=BBH+Hegarty&family=Carrois+Gothic&family=Fira+Sans+Extra+Condensed:ital,wght@0,100..900;1,100..900&family=Tagesschrift&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+@import "tailwindcss";
+
+:root {
+  --primary-color: #1da1f2;
+  --secondary-color: #657786;
+  --background-color: #f5f8fa;
+
+  --yellow-color: #ffbb09;
+  --green-color: #38ae4c;
+  --orange-color: #f65a2e;
+  --color-yellow: #facc15;
+
+  --color-maintext: hsl(0 0% 10%);
+  --color-subtext: hsl(0 0% 30%);
+
+  --shadow:
+    0px 2px 2px hsla(0, 0%, 0%, 0.07),
+    0px 4px 4px hsla(0, 0%, 0%, 0.15);
+    
+  --font-carrois: 'Carrois Gothic', sans-serif;
+  --font-fira: 'Fira Sans Extra Condensed', sans-serif;
+  --font-tagess: 'Tagesschrift', sans-serif;
+  --font-archivo: 'Archivo', sans-serif;
+
+  --spacing-025: 0.25rem;
+  --spacing-05: 0.5rem;
+  --spacing-075: 0.75rem;
+
+  --spacing-1: 1rem;
+
+  --spacing-125: 1.25rem;
+  --spacing-15: 1.5rem;
+  --spacing-175: 1.75rem;
+
+  --spacing-2: 2rem;
+}
+
+@theme inline {
+  --color-primary: var(--primary-color);
+  --color-secondary: var(--secondary-color);
+  --color-bg: var(--background-color);
+
+  --color-yellow: var(--yellow-color);
+  --color-green: var(--green-color);
+  --color-orange: var(--orange-color);
+
+  --color-maintext: var(--color-maintext);
+  --color-subtext: var(--color-subtext);
+
+  --shadow: var(--shadow);
+
+  
+  --font-carrois: var(--font-carrois);
+  --font-fira: var(--font-fira);
+  --font-tagess: var(--font-tagess);
+  --font-archivo: var(--font-archivo);
+
+   --spacing-025: var(--spacing-025);
+  --spacing-05: var(--spacing-05);
+  --spacing-075: var(--spacing-075);
+
+  --spacing-1: var(--spacing-1);
+
+  --spacing-125: var(--spacing-125);
+  --spacing-15: var(--spacing-15);
+  --spacing-175: var(--spacing-175);
+
+  --spacing-2: var(--spacing-2);
+}
+
+/* Button Styles */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.625rem 1.5rem;
+  border-radius: var(--spacing-05);
+  font-weight: 600;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  transition: color 0.3s ease;
+  z-index: 1;
+  text-decoration: none; /* For Link components */
+}
+
+.btn::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  transition: width 0.3s ease-in-out;
+  z-index: -1;
+}
+
+.btn:hover::after {
+  width: 100%;
+}
+
+.btn-primary {
+  background-color: var(--primary-color);
+  color: white;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+.btn-primary::after {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.btn-outline {
+  background-color: transparent;
+  border: 2px solid white;
+  color: white;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+.btn-outline::after {
+  background-color: white;
+}
+
+.btn-outline:hover {
+  color: black;
+}
+
+/* 1️⃣ Bottom 10% blue, rest white */
+.bg-bottom-accent {
+  background: linear-gradient(
+    to bottom,
+    white 0%,
+    white 80%,
+    var(--secondary-color) 100%
+  );
+}
+
+/* 2️⃣ Top 10% blue, rest white */
+.bg-top-accent {
+  background: linear-gradient(
+    to bottom,
+    var(--primary-color) 0%,
+    var(--primary-color) 10%,
+    white 10%,
+    white 100%
+  );
+}
+
+/* 3️⃣ Top 10% + Bottom 10% blue, middle white */
+.bg-top-bottom-accent {
+  background: linear-gradient(
+    to bottom,
+    var(--primary-color) 0%,
+    var(--primary-color) 10%,
+    white 10%,
+    white 90%,
+    var(--primary-color) 90%,
+    var(--primary-color) 100%
+  );
+}
+
+.archivo {
+  font-family: "Archivo Black", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* ===== Custom Scrollbar ===== */
+
+/* Chrome, Edge, Safari */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f4f6fb; /* light background */
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--primary-color);
+  border-radius: 10px;
+  border: 2px solid #f4f6fb; /* creates padding effect */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: color-mix(in srgb, var(--primary-color) 85%, black);
+}
+
+/* Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--primary-color) #f4f6fb;
+}
