@@ -13,15 +13,15 @@ const AboutCEO = () => {
   const ceos = [
     {
       id: 1,
-      name: "Nihal Siddiqui",
+      name: "Ehsan Malik",
       role: "Founder & CEO, Star Enterprises",
-      image: "https://images.unsplash.com/photo-1560250097-0b93528c311a?q=80&w=1000&auto=format&fit=crop", // Nihal Image
+      image: "/founders/Ehsan_Malik_Founder.jpeg",
     },
     {
       id: 2,
-      name: "Adnan Siddiqui", // Placeholder Name
+      name: "Raju Jaiswar",
       role: "Co-Founder & Director",
-      image: "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?q=80&w=1000&auto=format&fit=crop", // Second Image
+      image: "/founders/Raju_Jaiswar_Founder.jpeg",
     },
   ];
 

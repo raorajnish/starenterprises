@@ -116,7 +116,7 @@ const AboutMission = () => {
           {/* MIDDLE: Image */}
           <div className="mission-img-container lg:col-span-4 h-full">
             <img
-              src="https://images.unsplash.com/photo-1581094794329-c8112a89af12?q=80&w=1000&auto=format&fit=crop"
+              src="/services/service3.png"
               alt="Technician working"
               className="mission-img w-full h-[400px] md:h-[500px] object-cover rounded-xl shadow-lg"
             />

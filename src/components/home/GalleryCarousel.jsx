@@ -7,10 +7,14 @@ const GalleryCarousel = () => {
 
   // Using high-res placeholder images for better "full-width" visuals
   const images = [
-    "https://picsum.photos/seed/architecture/1920/1080",
-    "https://picsum.photos/seed/technology/1920/1080",
-    "https://picsum.photos/seed/nature/1920/1080",
-    "https://picsum.photos/seed/people/1920/1080",
+    "/gallery/gallery1.png",
+    "/gallery/gallery2.png",
+    "/gallery/gallery3.png",
+    "/gallery/gallery4.png",
+    "/gallery/gallery5.png",
+    "/gallery/gallery6.png",
+    "/gallery/gallery7.png",
+    "/gallery/gallery8.png",
   ];
 
   // Memoize handlers to prevent stale closures if used in effects
@@ -96,14 +100,14 @@ const GalleryCarousel = () => {
         </button>
 
         {/* Pagination Dots (Bottom Center) */}
-        <div className="absolute bottom-6 left-1/2 -translate-x-1/2 z-20 flex gap-2">
+        <div className="absolute bottom-6 left-1/2 -translate-x-1/2 z-20 flex gap-1">
           {images.map((_, idx) => (
             <button
               key={idx}
               onClick={() => setActiveIndex(idx)}
-              className={`w-2.5 h-2.5 rounded-full transition-all duration-300 ${
+              className={`w-1.5 h-1.5 rounded-full transition-all duration-300 ${
                 idx === activeIndex 
-                  ? "bg-white w-8" 
+                  ? "bg-white w-4" 
                   : "bg-white/50 hover:bg-white/80"
               }`}
               aria-label={`Go to slide ${idx + 1}`}

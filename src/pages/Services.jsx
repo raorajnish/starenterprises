@@ -8,7 +8,7 @@ const Services = () => {
     {
       title: "Condenser & Evaporator Descaling",
       description: "Professional descaling services to remove mineral deposits, scale, and fouling from condenser and evaporator tubes. Improves heat transfer efficiency.",
-      image: "https://images.unsplash.com/photo-1621905251189-08b45d6a269e?auto=format&fit=crop&q=80&w=800", // Replace with real image
+      image: "/services/service1.png", // Replace with real image
       features: [
         "Chemical descaling using approved chemicals",
         "Complete scale and deposit removal",
@@ -20,7 +20,7 @@ const Services = () => {
     {
       title: "AHU Services (Internal & External)",
       description: "Comprehensive Air Handling Unit (AHU) servicing covering both internal and external components to ensure clean air circulation and efficient cooling.",
-      image: "https://images.unsplash.com/photo-1621905251189-08b45d6a269e?auto=format&fit=crop&q=80&w=800",
+      image: "/services/service2.png",
       features: [
         "Internal & external AHU cleaning",
         "Filter cleaning / replacement",
@@ -32,7 +32,7 @@ const Services = () => {
     {
       title: "Cooling Tower Services",
       description: "Specialized cooling tower cleaning services to remove scale, algae, and dirt accumulation, ensuring smooth water flow and efficient heat rejection.",
-      image: "https://images.unsplash.com/photo-1621905251189-08b45d6a269e?auto=format&fit=crop&q=80&w=800",
+      image: "/services/service3.png",
       features: [
         "Cooling tower cleaning",
         "High-pressure jet cleaning services",
@@ -44,7 +44,7 @@ const Services = () => {
     {
       title: "VAM Chiller Services",
       description: "Professional servicing and descaling of VAM chillers to ensure efficient heat exchange, stable system operation, and reliable performance.",
-      image: "https://images.unsplash.com/photo-1621905251189-08b45d6a269e?auto=format&fit=crop&q=80&w=800",
+      image: "/services/service4.png",
       features: [
         "VAM chiller inspection and servicing",
         "Chemical cleaning and circulation descaling",
@@ -56,7 +56,7 @@ const Services = () => {
     {
       title: "PHE Services",
       description: "Expert Plate Heat Exchanger (PHE) descaling and cleaning services to restore heat transfer efficiency and prevent blockages caused by scale.",
-      image: "https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?auto=format&fit=crop&q=80&w=800",
+      image: "/services/service5.png",
       features: [
         "PHE chemical descaling",
         "Plate cleaning and flushing",
@@ -68,7 +68,7 @@ const Services = () => {
     {
       title: "Chemical Cleaning Process",
       description: "Our cleaning and descaling process follows industry-standard methods to ensure safe and effective results using approved chemicals.",
-      image: "https://images.unsplash.com/photo-1532094349884-543bc11b234d?auto=format&fit=crop&q=80&w=800",
+      image: "/services/service6.png",
       features: [
         "Chemical circulation using motor pump",
         "Controlled descaling procedure",

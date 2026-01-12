@@ -1,4 +1,6 @@
 import React, { useLayoutEffect, useRef } from "react";
+import { Link } from "react-router-dom";
+import { ArrowRight } from "lucide-react";
 import ServiceCard from "./ServiceCard";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
@@ -12,7 +14,7 @@ const Services = () => {
     {
       title: "Condenser & Evaporator Descaling",
       description: "Professional descaling services to remove mineral deposits, scale, and fouling from condenser and evaporator tubes. Improves heat transfer efficiency.",
-      image: "https://picsum.photos/seed/img1/800/600",
+      image: "/services/service1.png",
       features: [
         "Chemical descaling using approved chemicals",
         "Complete scale and deposit removal",
@@ -24,7 +26,7 @@ const Services = () => {
     {
       title: "AHU Services (Internal & External)",
       description: "Comprehensive Air Handling Unit (AHU) servicing covering both internal and external components to ensure clean air circulation and efficient cooling.",
-      image: "https://picsum.photos/seed/img2/800/600",
+      image: "/services/service2.png",
       features: [
         "Internal & external AHU cleaning",
         "Filter cleaning / replacement",
@@ -36,7 +38,7 @@ const Services = () => {
     {
       title: "Cooling Tower Services",
       description: "Specialized cooling tower cleaning services to remove scale, algae, and dirt accumulation, ensuring smooth water flow and efficient heat rejection.",
-      image: "https://picsum.photos/seed/img3/800/600",
+      image: "/services/service3.png",
       features: [
         "Cooling tower cleaning",
         "High-pressure jet cleaning services",
@@ -48,7 +50,7 @@ const Services = () => {
     {
       title: "VAM Chiller Services",
       description: "Professional servicing and descaling of VAM chillers to ensure efficient heat exchange, stable system operation, and reliable performance.",
-      image: "https://picsum.photos/seed/img4/800/600",
+      image: "/services/service4.png",
       features: [
         "VAM chiller inspection and servicing",
         "Chemical cleaning and circulation descaling",
@@ -60,7 +62,7 @@ const Services = () => {
     {
       title: "PHE Services",
       description: "Expert Plate Heat Exchanger (PHE) descaling and cleaning services to restore heat transfer efficiency and prevent blockages caused by scale.",
-      image: "https://picsum.photos/seed/img5/800/600",
+      image: "/services/service5.png",
       features: [
         "PHE chemical descaling",
         "Plate cleaning and flushing",
@@ -72,7 +74,7 @@ const Services = () => {
     {
       title: "Chemical Cleaning Process",
       description: "Our cleaning and descaling process follows industry-standard methods to ensure safe and effective results using approved chemicals.",
-      image: "https://picsum.photos/seed/img6/800/600",
+      image: "/services/service6.png",
       features: [
         "Chemical circulation using motor pump",
         "Controlled descaling procedure",
@@ -140,6 +142,17 @@ const Services = () => {
               <ServiceCard {...service} />
             </div>
           ))}
+        </div>
+
+        {/* Explore All Services Button */}
+        <div className="mt-16 text-center">
+            <Link 
+              to="/services" 
+              className="btn btn-primary inline-flex items-center gap-2"
+            >
+              Explore All Services
+              <ArrowRight size={20} />
+            </Link>
         </div>
 
       </div>

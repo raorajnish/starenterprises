@@ -8,9 +8,9 @@ const ServiceCTA = () => {
       <div className="max-w-6xl mx-auto px-4 flex flex-col md:flex-row items-center justify-center gap-12">
         
         {/* Image Section */}
-        <div className="w-full md:w-1/2 flex justify-center">
+        <div className="w-full md:w-1/2 h-[300px] flex justify-center">
           <img
-            src="https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?q=80&w=1200&auto=format&fit=crop"
+            src="/services/service3.png"
             alt="Technician"
             className="w-full max-w-sm rounded-lg shadow-lg object-cover"
           />

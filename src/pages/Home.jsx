@@ -6,6 +6,7 @@ import ExpertService from '../components/home/ExpertService';
 
 import Services from "../components/home/Services";
 import GalleryCarousel from "../components/home/GalleryCarousel";
+import BrandMarquee from "../components/home/BrandMarquee";
 import Footer from "../components/Footer";
 
 const Home = () => {
@@ -16,6 +17,7 @@ const Home = () => {
       <WhyChooseUs />
       <ExpertService />
       <Services />
+      <BrandMarquee />
       <GalleryCarousel />
       <Footer />
     </main>

@@ -35,7 +35,7 @@ const AboutHero = () => {
         {/* Adjusted height to be prominent but not taking full viewport on laptops */}
         <div className="relative w-full h-[550px] md:h-[650px] rounded-3xl overflow-hidden shadow-xl">
           <img
-            src="https://images.unsplash.com/photo-1621905251189-08b45d6a269e?q=80&w=2069&auto=format&fit=crop"
+            src="/services/service3.png"
             alt="Star Enterprises HVAC Team"
             className="hero-img w-full h-full object-cover"
           />
