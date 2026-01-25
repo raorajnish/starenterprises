@@ -21,8 +21,8 @@ const ContactInfo = () => {
             <div className="w-10 h-10 bg-white/10 rounded-lg flex items-center justify-center shrink-0 text-[var(--color-yellow)]">
               <MapPin className="w-5 h-5" />
             </div>
-            <p className="text-sm leading-snug text-blue-50 ">
-              Shop No. 7, G Wing, Sagar Garden, LBS Marg, Mulund West, Mumbai - 400080
+            <p className="text-sm leading-snug text-blue-50">
+              Room No. 09, First Floor, Gurudatta Nagar, Pipe Line Road, Near Chawl No. 05, Kurla West, Mumbai – 400070
             </p>
           </div>
 
@@ -32,8 +32,8 @@ const ContactInfo = () => {
               <Phone className="w-5 h-5" />
             </div>
             <div className="text-sm text-blue-50">
-              <p>+91 98205 56276</p>
-              <p>+91 93245 56276</p>
+              <p>+91 8928294282</p>
+              <p>+91 7985385879</p>
             </div>
           </div>
 
@@ -42,7 +42,7 @@ const ContactInfo = () => {
             <div className="w-10 h-10 bg-white/10 rounded-lg flex items-center justify-center shrink-0 text-[var(--color-yellow)]">
               <Mail className="w-5 h-5" />
             </div>
-            <p className="text-sm text-blue-50 break-all">info@starenterprises.com</p>
+            <p className="text-sm text-blue-50 break-all">starenterprises8928@gmail.com</p>
           </div>
 
           {/* Hours */}

@@ -3,14 +3,13 @@ import React from "react";
 const Statistics = () => {
   const stats = [
     { value: "10+", label: "Years Experience", description: "Since 2013" },
-    { value: "500+", label: "Projects Done", description: "Commercial & Industrial" },
-    { value: "1200+", label: "Happy Clients", description: "Across the Region" },
+    { value: "50+", label: "Projects Done", description: "Commercial & Industrial" }
   ];
 
   return (
     <section className="bg-white  border-y border-gray-200">
       <div className="w-full">
-        <div className="grid grid-cols-1 md:grid-cols-3 divide-y md:divide-y-0 md:divide-x divide-gray-200">
+        <div className="grid grid-cols-1 md:grid-cols-2 divide-y md:divide-y-0 md:divide-x divide-gray-200">
           {stats.map((stat, index) => (
             <div 
               key={index} 

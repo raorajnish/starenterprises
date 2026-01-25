@@ -12,7 +12,7 @@ const WhyChooseUs = () => {
     {
       icon: <Wrench size={48} />,
       title: "Expert Service",
-      description: "Specialized in AC repair and chiller plant maintenance.",
+      description: "Specialized in Chiller Descaling and Cooling Tower Descaling",
     },
     {
       icon: <ShieldCheck size={48} />,
@@ -22,13 +22,8 @@ const WhyChooseUs = () => {
     {
       icon: <Clock size={48} />,
       title: "24/7 Support",
-      description: "Available around the clock for emergency repairs.",
-    },
-    {
-      icon: <Award size={48} />,
-      title: "Certified Technicians",
-      description: "Experienced professionals handling all major brands.",
-    },
+      description: "Available around the clock for emergency services.",
+    }
   ];
 
   useLayoutEffect(() => {
@@ -86,7 +81,7 @@ const WhyChooseUs = () => {
         </div>
 
         {/* Cards Grid */}
-        <div className="cards-grid grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="cards-grid grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {features.map((feature, index) => (
             <div
               key={index}

@@ -28,7 +28,7 @@ const AboutMission = () => {
       id: "value",
       label: "Our Value",
       content:
-        "Integrity, Transparency, and Excellence. We believe in honest pricing, using genuine spare parts, and delivering expert service that builds long-term relationships with our clients.",
+        "Integrity, Transparency, and Excellence. We believe in honest pricing and delivering expert descaling services that build long-term relationships with our clients.",
     },
   ];
 
@@ -88,7 +88,7 @@ const AboutMission = () => {
   }, []);
 
   return (
-    <section ref={containerRef} className="py-20 bg-white overflow-hidden">
+    <section ref={containerRef} className="py-20 bg-white bg-bottom-accent overflow-hidden">
       <div className="container mx-auto px-4 md:px-8">
         {/* 3-Column Layout for PC */}
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-top">
@@ -103,10 +103,7 @@ const AboutMission = () => {
               <span className="text-blue-600">HVAC Solutions</span>
             </h2>
             <p className="mission-text text-slate-500 font-carrois leading-relaxed text-justify">
-              From emergency repairs to full chiller plant installations, we treat
-              each project as our own. Star Enterprises provides personalized
-              solutions tailored to meet the unique cooling needs of your
-              industry.
+            From routine maintenance to complex chiller descaling projects, we treat every assignment with the same level of care and precision. Our team provides customized HVAC servicing and cleaning solutions designed to improve performance, enhance efficiency, and meet the specific cooling requirements of your industrial and commercial systems.
             </p>
             <button className="mission-text btn bg-orange-500 text-white px-6 py-3 rounded hover:bg-orange-600 transition font-bold text-sm">
               LEARN MORE
@@ -116,7 +113,7 @@ const AboutMission = () => {
           {/* MIDDLE: Image */}
           <div className="mission-img-container lg:col-span-4 h-full">
             <img
-              src="/services/service3.png"
+              src="/expertpage.jpg"
               alt="Technician working"
               className="mission-img w-full h-[400px] md:h-[500px] object-cover rounded-xl shadow-lg"
             />

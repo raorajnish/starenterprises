@@ -82,7 +82,7 @@ const Services = () => {
     <div className="bg-[#FFFBF0] min-h-fit">
       
       {/* 1. Page Header */}
-      <div className="bg-white py-16 text-center px-4">
+      <div className="bg-white bg-bottom-accent pt-16 text-center px-4">
         <span className="inline-block py-1.5 px-3 rounded bg-blue-50 text-blue-600 text-[10px] md:text-xs font-bold tracking-widest uppercase font-carrois">
                 Our Services
               </span>

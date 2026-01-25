@@ -132,7 +132,7 @@
     to bottom,
     white 0%,
     white 80%,
-    var(--secondary-color) 100%
+    #FFFBF0 100%
   );
 }
 

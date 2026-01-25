@@ -14,13 +14,13 @@ const AboutCEO = () => {
     {
       id: 1,
       name: "Ehsan Malik",
-      role: "Founder & CEO, Star Enterprises",
+      role: "Founder & Proprietor, Star Enterprises",
       image: "/founders/Ehsan_Malik_Founder.jpeg",
     },
     {
       id: 2,
       name: "Raju Jaiswar",
-      role: "Co-Founder & Director",
+      role: "Founder & Proprietor, Star Enterprises",
       image: "/founders/Raju_Jaiswar_Founder.jpeg",
     },
   ];
@@ -67,7 +67,7 @@ const AboutCEO = () => {
   }, []);
 
   return (
-    <section ref={sectionRef} className="py-24 bg-[#FFFBF0]">
+    <section ref={sectionRef} className="pt-14 bg-[#FFFBF0]">
       <div className="container mx-auto px-4 md:px-8">
         <div className="flex flex-col lg:flex-row items-center gap-12 lg:gap-20">
           
@@ -112,23 +112,11 @@ const AboutCEO = () => {
             
             <div className="space-y-6 text-secondary font-carrois text-lg leading-relaxed text-justify">
               <p>
-                What began in 2005 as a modest venture has grown into one of
-                India's trusted names in HVAC and turnkey industrial solutions.
-                With each passing year, <strong className="text-maintext">Star Enterprises</strong> has evolved—from
-                early groundwork in residential cooling to pioneering large-scale
-                cold room projects and third-party logistics services.
+                Built on years of hands-on field experience, our work is centered around specialized chiller descaling and HVAC system optimization. Backed by skilled technicians, we focus on precision-driven chemical and mechanical cleaning processes that improve efficiency, reduce downtime, and extend equipment life. Every project is approached with technical care, safety, and a commitment to long-term system performance.
               </p>
-              <p>
-                By 2014, we officially took shape as a private limited entity,
-                driven by a commitment to quality and innovation. Over the years,
-                we've expanded our capabilities, built a strong in-house team, and
-                earned trusted partnerships like Blue Star, while achieving ISO
-                certifications.
-              </p>
+              
               <p className="italic font-medium text-maintext">
-                "We never aimed to grow fast — we aimed to grow right. Our
-                journey is built on trust, learning, and delivering value with
-                every project."
+                “Our commitment is simple — deliver quality services that ensure reliable performance and long-term value.”
               </p>
             </div>
 

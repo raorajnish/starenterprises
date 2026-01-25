@@ -35,7 +35,7 @@ const AboutHero = () => {
         {/* Adjusted height to be prominent but not taking full viewport on laptops */}
         <div className="relative w-full h-[550px] md:h-[650px] rounded-3xl overflow-hidden shadow-xl">
           <img
-            src="/services/service3.png"
+            src="/services/service6.png"
             alt="Star Enterprises HVAC Team"
             className="hero-img w-full h-full object-cover"
           />
@@ -45,7 +45,7 @@ const AboutHero = () => {
 
         {/* Floating White Card */}
         {/* Positioned absolutely at the bottom, overlapping the image */}
-        <div className="hero-card absolute bottom-6 md:bottom-10 left-0 right-0 mx-auto w-[92%] md:w-[90%] bg-white rounded-2xl shadow-2xl p-6 md:p-10 lg:p-12">
+        <div className="hero-card absolute bottom-6 bg-bottom-accent md:bottom-10 left-0 right-0 mx-auto w-[92%] md:w-[90%] rounded-2xl shadow-2xl p-6 md:p-10 lg:p-12">
           
           {/* Grid Layout: Left (Title) vs Right (Desc + Btn) */}
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16 items-start md:items-center">

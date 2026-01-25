@@ -109,11 +109,7 @@ const ExpertService = () => {
               </h2>
               
               <p className="text-animate text-lg text-secondary font-carrois leading-relaxed text-justify">
-                With over 18 years of industry experience, Star Enterprises has
-                built a reputation for excellence and reliability in HVAC
-                solutions. We understand the critical nature of your cooling
-                systems and provide dedicated support to keep them running
-                efficiently.
+                With over 10 years of specialized experience, our HVAC maintenance technicians bring deep expertise in chiller descaling and system optimization. They understand the critical nature of industrial cooling systems and deliver end-to-end descaling solutions for centrifugal, screw, and reciprocating chillers. Through expert chemical and mechanical cleaning processes, our technicians help improve cooling efficiency, extend equipment lifespan, and ensure reliable system performance.
               </p>
             </div>
 

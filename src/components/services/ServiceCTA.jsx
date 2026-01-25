@@ -10,7 +10,7 @@ const ServiceCTA = () => {
         {/* Image Section */}
         <div className="w-full md:w-1/2 h-[300px] flex justify-center">
           <img
-            src="/services/service3.png"
+            src="/services/CTA.jpg"
             alt="Technician"
             className="w-full max-w-sm rounded-lg shadow-lg object-cover"
           />
@@ -36,7 +36,7 @@ const ServiceCTA = () => {
             <div className="flex items-center gap-3">
               <Phone className="w-6 h-6 text-white" />
               <span className="text-xl font-bold font-fira">
-                +91 98205 56276
+                +91 8928294282
               </span>
             </div>
 

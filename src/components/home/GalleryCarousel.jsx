@@ -12,9 +12,7 @@ const GalleryCarousel = () => {
     "/gallery/gallery3.png",
     "/gallery/gallery4.png",
     "/gallery/gallery5.png",
-    "/gallery/gallery6.png",
-    "/gallery/gallery7.png",
-    "/gallery/gallery8.png",
+    "/gallery/gallery6.png"
   ];
 
   // Memoize handlers to prevent stale closures if used in effects
